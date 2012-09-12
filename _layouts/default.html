@@ -37,6 +37,8 @@
 				$("#nav-{{page.activenav}}").addClass("active");
 			});
 		</script>
+
+		<meta name="google-translate-customization" content="a98fb2312539fc47-1ad9c17db60b44a2-g092b4ea53da686b0-10"></meta>
 	</head>
 	  <body>
 
@@ -56,8 +58,6 @@
               <li id="nav-qsl"><a href="/qsl.html">QSL Info</a></li>
               <li id="nav-trustfund"><a href="/trustfund.html">Tristan Educational Trust Fund</a></li>
 			  <li id="nav-team"><a href="/team.html">Team</a></li>
-
-
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -65,6 +65,14 @@
     </div>
 
     <div class="container">
+
+	<!-- Google Translate toolbar -->
+	<div id="google_translate_element"></div><script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-30548356-1'}, 'google_translate_element');
+		}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
 {{content}}
 
       <hr />
